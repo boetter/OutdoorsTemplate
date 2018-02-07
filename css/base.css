@@ -126,7 +126,7 @@ button:focus {
 }
 
 .title {
-	text-transform: lowercase;
+
 	font-size: 1.35rem;
 	margin: 0;
 }
@@ -226,10 +226,10 @@ button:focus {
 }
 
 .section__title {
-	font-size: 10vw;
-	text-transform: lowercase;
+	font-family: "Passion One", sans-serif;
+	font-size: 8vw;
+	font-weight:700;
 	margin: 0;
-	letter-spacing: -0.35vw;
 	position: relative;
 	overflow: hidden;
 }
@@ -243,7 +243,7 @@ button:focus {
 	overflow: hidden;
 	position: relative;
 	padding: 0 2rem 0 0;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .section__description-inner {
@@ -318,6 +318,7 @@ button:focus {
 
 .section__facts-title {
 	font-size: 1em;
+	font-weight:700;
 	margin: 0 0 0.5rem;
 }
 

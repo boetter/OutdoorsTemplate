@@ -3,12 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Outdoors Template | Codrops</title>
-		<meta name="description" content="An implementation of Gil Huybrecht's Outdoors design" />
-		<meta name="keywords" content="template, web design, html, javascript, layout, css, slide out" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+		<title>Hey, let's do a sprint this week!</title>
+		<meta name="description" content="A step-by-step introduction on how to run a design sprint week" />
+		<meta name="keywords" content="designsprint, googleventures, sprintweek, sprint, designthinking" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Passion+One:700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
@@ -16,17 +14,26 @@
 	</head>
 	<body class="loading">
 		<svg class="hidden">
-			<symbol id="icon-arrow" viewBox="0 0 24 24">
-				<title>arrow</title>
-				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			<symbol id="icon-gv" viewBox="0 0 700 480">
+				<title>gv</title>
+				    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="gv" sketch:type="MSArtboardGroup" fill="currentColor">
+            <path d="M298.314283,456 C206.492695,456 132.056526,381.680472 132.056526,289.998672 C132.056526,198.316872 206.492695,124 298.314283,124 C310.272536,124 321.930868,125.283512 333.173568,127.67856 L370.273945,201.379904 C351.011196,188.479048 327.943911,180.515032 302.781836,179.64652 C301.258958,179.59008 299.727434,179.5602 298.188596,179.5602 L298.188596,179.574808 C237.130481,179.6432 187.653558,229.334304 187.653558,290.314736 C187.653558,351.338328 237.198313,401.129696 298.314283,401.129696 C349.969122,401.129696 393.354531,363.263104 405.550859,318.652264 L287.550392,318.652264 L287.550392,261.295944 L400.947643,261.295944 L449.612586,358.41856 C423.400457,415.70848 365.516447,456 298.314283,456" id="Fill-1" sketch:type="MSShapeGroup"></path>
+            <path d="M503.382164,455.065752 L471.099801,391.084704 L603.070849,127.463424 L667.940149,127.463424 L503.382164,455.065752" id="Fill-2" sketch:type="MSShapeGroup"></path>
+        </g>
 			</symbol>
-			<symbol id="icon-drop" viewBox="0 0 24 24">
+			<symbol id="icon-drop" viewBox="0 0 16 16">
 				<title>drop</title>
-				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+				<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
 			</symbol>
-			<symbol id="icon-menu" viewBox="0 0 24 13">
+			<symbol id="icon-menu" viewBox="0 0 24 24">
 				<title>menu</title>
-				<path d="M.75 1.515h22.498a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5zM23.248 5.265H8.168a.75.75 0 0 0 0 1.5h15.08a.75.75 0 0 0 0-1.5zM23.248 10.514H4.322a.75.75 0 0 0 0 1.5h18.926a.75.75 0 0 0 0-1.5z"/>
+				<path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12c6.616,0,12-5.383,12-12S18.616,0,12,0z M12,19c-0.553,0-1-0.447-1-1
+	c0-0.552,0.447-1,1-1c0.551,0,1,0.448,1,1C13,18.553,12.551,19,12,19z M12.5,12.965V15.5c0,0.276-0.225,0.5-0.5,0.5
+	c-0.276,0-0.5-0.224-0.5-0.5v-3c0-0.276,0.224-0.5,0.5-0.5c1.378,0,2.5-1.121,2.5-2.5S13.378,7,12,7c-1.379,0-2.5,1.121-2.5,2.5
+	C9.5,9.776,9.275,10,9,10c-0.276,0-0.5-0.224-0.5-0.5C8.5,7.57,10.069,6,12,6c1.93,0,3.5,1.57,3.5,3.5
+	C15.5,11.26,14.193,12.721,12.5,12.965z"/>
+
 			</symbol>
 			<symbol id="icon-dot" viewBox="0 0 24 24">
 				<title>dot</title>
@@ -60,13 +67,14 @@
 		<main>
 			<div class="sections">
 				<header class="sections__header">
-					<h1 class="title">Outdoors</h1>
+					<h1 class="title">Hey, let's do a sprint this week!</h1>
 				</header>
 				<!-- codrops links -->
 				<div class="codrops-links">
-					<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GradientTopographyAnimation/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-					<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=33851" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+					<a class="codrops-icon codrops-icon--gv" href="https://www.gv.com/sprint/" title="GV"><svg class="icon icon--gv"><use xlink:href="#icon-gv"></use></svg></a>
+					<a class="codrops-icon codrops-icon--drop" href="https://github.com/boetter/sprintweek" title="GitHub"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
 				</div>
+ 
 				<!-- menu -->
 				<nav class="menu">
 					<ul class="menu__inner">
@@ -89,11 +97,11 @@
 					<div class="facts__toggle">
 						<span class="facts__toggle-inner facts__toggle-inner--more">
 							<svg class="icon icon--dot"><use xlink:href="#icon-dot"></use></svg>
-							<span class="facts__toggle-text">See more facts</span>
+							<span class="facts__toggle-text">See more agenda</span>
 						</span>
 						<span class="facts__toggle-inner facts__toggle-inner--less">
 							<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
-							<span class="facts__toggle-text">See less facts</span>
+							<span class="facts__toggle-text">See less agenda</span>
 						</span>
 					</div>
 					<button class="button-contentclose">
@@ -105,7 +113,7 @@
 					<span class="sections__index-current">
 						<span class="sections__index-inner">01</span>
 					</span>
-					<span class="sections__index-total">04</span>
+					<span class="sections__index-total">05</span>
 				</div>
 				<!-- navigation down -->
 				<nav class="sections__nav">
@@ -119,17 +127,17 @@
 				<!-- sections -->
 				<section class="section section--current">
 					<div class="section__content">
-						<h2 class="section__title">Hiking</h2>
-						<p class="section__description"><span class="section__description-inner">Hiking is the preferred term, in Canada and the United States, for a long, vigorous walk, usually on trails (footpaths), in the countryside, while the word walking is used for shorter, particularly urban walks.</span></p>
+						<h2 class="section__title">Monday</h2>
+						<p class="section__description"><span class="section__description-inner">On Monday, you’ll kick off your sprint by sharing knowledge, understanding the problem, and choosing a target for the week’s efforts. Monday’s structured discussions create a path for the sprint week. In the morning, you’ll start at the end and agree to a long-term goal. Next, you’ll make a map of the challenge. In the afternoon, you’ll ask the experts at your company to share what they know. Finally, you’ll pick a target: an ambitious but manageable piece of the problem that you can solve in one week.</span></p>
 					</div>
 					<div class="section__img">
 						<div class="section__img-inner" style="background-image: url(img/1.jpg)"></div>
 					</div>
 					<div class="section__more">
 						<div class="section__more-inner section__more-inner--bg1">
-							<span class="section__more-text">Want to know more?</span>
-							<a href="#" class="section__more-link">
-								<span class="section__more-linktext">Explore all hikes</span>
+							<span class="section__more-text">Need more?</span>
+							<a href="https://library.gv.com/sprint-week-monday-4bf0606b5c81" class="section__more-link">
+								<span class="section__more-linktext">Read in-depth explanation from GV</span>
 								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
 							</a>
 						</div>
@@ -137,39 +145,35 @@
 					<div class="section__expander"></div>
 					<ul class="section__facts">
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Biggest lake</h3>
-							<span class="section__facts-detail">Caspian sea in Kazakhstan</span>
+							<h3 class="section__facts-title">10:00 &mdash; Checklist & introductions</h3>
 						</li>
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Coolest activity</h3>
-							<span class="section__facts-detail">Kayaking the whole lake</span>
+							<h3 class="section__facts-title">10:15 &mdash; Long-term goal & sprint questions</h3>
 						</li>
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Lake depth</h3>
-							<span class="section__facts-detail">With 55m it's the deepest</span>
+							<h3 class="section__facts-title">11:30 &mdash; Make a map</h3>
 						</li>
-						<li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
-							<div class="section__facts-img">
-								<img src="img/thumb1.jpg" alt="Some image"/>
-								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
-							</div>
-							<h3 class="section__facts-title">More impressions</h3>
-							<span class="section__facts-detail">A collection of images</span>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">13:00 &mdash; Lunch</h3>
 						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">14:00 &mdash; Ask the Experts</h3>
+							<span class="section__facts-detail">Everyone makes HowMightWe notes!</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">16:00 &mdash; Organize & vote on HMW</h3>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">16:30 &mdash; Pick a target</h3>
+						</li>
+
+
 					</ul>
-					<div class="section__gallery" id="gallery1">
-						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
-						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
-					</div>
+
 				</section><!--/ section -->
 				<section class="section">
 					<div class="section__content">
-						<h2 class="section__title">Lakes</h2>
+						<h2 class="section__title">Tuesday</h2>
 						<p class="section__description"><span class="section__description-inner">A lake is an area filled with water, localized in a basin, that is surrounded by land, apart from any river or other outlet that serves to feed or drain the lake. Lakes lie on land and are not part of the ocean.</span></p>
 					</div>
 					<div class="section__img">
@@ -219,7 +223,7 @@
 				</section><!--/ section -->
 				<section class="section">
 					<div class="section__content">
-						<h2 class="section__title">Paths</h2>
+						<h2 class="section__title">Wednesday</h2>
 						<p class="section__description"><span class="section__description-inner">A footpath (also pedestrian way, walking trail, nature trail) is a type of thoroughfare that is intended for use only by pedestrians and not other forms of traffic such as motorized vehicles, cycles, and horses.</span></p>
 					</div>
 					<div class="section__img">
@@ -256,7 +260,44 @@
 				</section><!--/ section -->
 				<section class="section">
 					<div class="section__content">
-						<h2 class="section__title">Rivers</h2>
+						<h2 class="section__title">Thursday</h2>
+						<p class="section__description"><span class="section__description-inner">A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. In some cases a river flows into the ground and becomes dry at the end of its course without reaching another body of water.</span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/4.jpg)"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg4">
+							<span class="section__more-text">Want to know more?</span>
+							<a href="#" class="section__more-link">
+								<span class="section__more-linktext">Explore all rivers</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">River romantics</h3>
+							<span class="section__facts-detail">Caspian sea in Kazakhstan</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">History call</h3>
+							<span class="section__facts-detail">Kayaking the whole lake</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Walking around</h3>
+							<span class="section__facts-detail">With 55m it's the deepest</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">How many miles?</h3>
+							<span class="section__facts-detail">An aerial view of the lake</span>
+						</li>
+					</ul>
+				</section><!--/ section -->
+				<section class="section">
+					<div class="section__content">
+						<h2 class="section__title">Friday</h2>
 						<p class="section__description"><span class="section__description-inner">A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. In some cases a river flows into the ground and becomes dry at the end of its course without reaching another body of water.</span></p>
 					</div>
 					<div class="section__img">
