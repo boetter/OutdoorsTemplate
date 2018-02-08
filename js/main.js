@@ -227,6 +227,8 @@
 		}
 		initEvents() {
 			// Navigation
+
+
 			this.onPrevClick = () => this.navigate('prev');
 			this.onNextClick = () => this.navigate('next');
 			this.DOM.navigation.prevCtrl.addEventListener('click', this.onPrevClick);

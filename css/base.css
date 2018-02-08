@@ -15,10 +15,11 @@ body {
 	--color-bg-facts: #000;
 	--color-text-facts: #fff;
 	--color-bg-img: #000;
-	--color-bg-more-1: #fee9b1;
-	--color-bg-more-2: #e0f3ca;
-	--color-bg-more-3: #f3cae8;
-	--color-bg-more-4: #cacaf3;
+	--color-bg-more-1: #B4A3C4;
+	--color-bg-more-2: #7DB1C6;
+	--color-bg-more-3: #CB9565;
+	--color-bg-more-4: #C78672;
+	--color-bg-more-5: #C7BA72;	
 	--color-nav: #ddd;
 	--color-nav-hover: #000;
 	--color-link: #000;
@@ -316,6 +317,10 @@ button:focus {
 	margin: -0.75rem 0 0 -0.75rem;
 }
 
+.section__facts-header {
+	font-family: "Passion One", sans-serif;
+}
+
 .section__facts-title {
 	font-size: 1em;
 	font-weight:700;
@@ -395,6 +400,10 @@ button:focus {
 .section__more-inner--bg4 {
 	background-color: var(--color-bg-more-4);
 }
+.section__more-inner--bg5 {
+	background-color: var(--color-bg-more-5);
+}
+
 
 .section__more-text {
 	font-weight: bold;
@@ -616,9 +625,7 @@ button:focus {
 	}
 	.section__facts-detail {
 		display: block;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
+		color:grey;
 	}
 	.section__more-inner {
 		padding: 0;
